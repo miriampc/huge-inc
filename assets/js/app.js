@@ -18,10 +18,6 @@ window.addEventListener('load',function(){
     figure.appendChild(caption);
     docFragment.appendChild(figure);
     codersGrid.appendChild(docFragment);
-<<<<<<< HEAD
-
-=======
->>>>>>> 4dd6c5145ba99f58451a8b14a21bfe008748f95d
   });
 });
 
