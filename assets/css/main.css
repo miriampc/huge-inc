@@ -25,7 +25,7 @@ nav{
 }
 /*Javascript style toggle for menu appear and desappear*/
 .header-in{
-  background-color: rgba(247, 182, 23, 0.81);
+  background-color: blue;//rgba(247, 182, 23, 0.81);
 }
 /**/
 /*Navgation general styles*/

@@ -1,4 +1,3 @@
-//var url="assets/images/students/";//+num+".png";
 var allCoders=["Fiorella Quispe","Lourdes Vilchez","Rossmery Maldonado","Yessenia Huaman","Miriam Mendoza","Elizabeth Condori",
 "Arantza Burga","Grecia Rayme","Janine Vega","Rosario Felix","Daguiana Revoredo","Jenny Velasquez","Nadia Cuadros",
 "Michell More","Marilu Llamocca","Mariel Garcia","Fiorella Cisneros","Geraldine Chauca","Yellitza Rivera","Stephanie Hiyagon",
@@ -14,3 +13,7 @@ function Coders(coder){
     this.allCoders.push(name);
   }
 }
+var coder=new Coders(allCoders);
+//Si deseamos añadir mas coder: ejecutar lo sgt:
+// coder.addCoders("Fiorela Cisneros");
+// coder.addCoders("Lulu");
