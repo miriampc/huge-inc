@@ -1,6 +1,8 @@
 //Verifica que los elementos en html se haya cargado completamente
 window.addEventListener('load',function(){
+  var docFragment=document.createDocumentFragment();
   var codersGrid=document.getElementById('coders-grid');
+
   coder.allCoders.forEach(function(e,id){
     var figure=document.createElement('figure');
     var image=document.createElement('img');
@@ -14,10 +16,11 @@ window.addEventListener('load',function(){
     spanName.appendChild(document.createTextNode(e));
     caption.appendChild(spanName);
     figure.appendChild(caption);
-    codersGrid.appendChild(figure);
+    docFragment.appendChild(figure);
+    codersGrid.appendChild(docFragment);
+
   });
 });
-
 
 var navHeader=document.getElementById('nav-header');
 var toggle=document.getElementById('toggle');
