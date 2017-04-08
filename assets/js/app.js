@@ -42,7 +42,7 @@ window.addEventListener("scroll", function(){
     document.getElementById("nav-header").classList.add("header-in");
     document.getElementById("nav-header").classList.add("solid");
     document.getElementById("nav-header").style.opacity = 1;
-    if(currentScroll<=3){
+    if(currentScroll<=4){
       document.getElementById("nav-header").classList.remove("solid");
       document.getElementById("nav-header").classList.remove("header-in");
     }
