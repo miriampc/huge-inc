@@ -1,6 +1,8 @@
 //Verifica que los elementos en html se haya cargado completamente
 window.addEventListener('load',function(){
+  var docFragment=document.createDocumentFragment();
   var codersGrid=document.getElementById('coders-grid');
+
   coder.allCoders.forEach(function(e,id){
     var figure=document.createElement('figure');
     var image=document.createElement('img');
@@ -8,16 +10,16 @@ window.addEventListener('load',function(){
     var spanName=document.createElement('span');
     figure.setAttribute("class","image-coder");
     image.setAttribute("id","coder"+id);
-    image.src="assets/images/students/"+(id+1)+".png";//e.url;//+(id+1)+".png";
+    image.src="assets/images/students/"+(id+1)+".png";
     caption.setAttribute("class",'name-coder');
     figure.appendChild(image);
     spanName.appendChild(document.createTextNode(e));
     caption.appendChild(spanName);
     figure.appendChild(caption);
-    codersGrid.appendChild(figure);
+    docFragment.appendChild(figure);
+    codersGrid.appendChild(docFragment);
   });
 });
-
 
 var navHeader=document.getElementById('nav-header');
 var toggle=document.getElementById('toggle');
