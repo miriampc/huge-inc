@@ -1,0 +1,50 @@
+.coders-container{
+  margin: 0;
+  background-color: #8ACB88;
+  display: inline-block;
+  width: 100%;
+}
+#coders-grid{
+  padding: 0% 4%;
+}
+.coders-container h1{
+  margin: 27px 0px;
+  text-align: center;
+}
+
+.image-coder{
+  margin: 0;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+.image-coder img{
+  margin: 0;
+  border-radius: 25px;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+/*.image-coder img:hover{
+  opacity: 0.8;
+  background: #FFBF46;
+}*/
+
+.name-coder{
+  opacity: 0;
+  z-index: 1000;
+  margin: 0;
+  padding: 130px 0px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+}
+.name-coder:hover{
+  border-radius: 25px;
+  opacity: 0.8;
+  background: #FFBF46;
+}
