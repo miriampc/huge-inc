@@ -45,8 +45,8 @@ nav .nav-background {
 }
 nav.open .nav-background {
   opacity: 1;
-  background-color: rgba(247, 182, 23, 0.81) !important;
-  transition: background-color 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+  background-color: rgba(254, 196, 54, 0.81) !important;
+  transition: background-color 0.8s cubic-bezier(0.7, 0.01, 0.3, 1);
 }
 nav.open {
   height: 100%;
@@ -128,6 +128,7 @@ nav.solid #logo .logo {
   margin: 2rem 2rem;
   background: #f7b617;
   transition: all 0.3s;
+  border-radius: 50px;
 }
 .menu:before{
   top: -8px;
@@ -151,6 +152,7 @@ nav.solid #logo .logo {
   position: absolute;
   background: #f7b617;
   transition: all 0.3s;
+  border-radius: 50px;
 }
 #toggle:hover {
   transition: top 0.4s;

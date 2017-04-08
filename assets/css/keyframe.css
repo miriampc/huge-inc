@@ -16,8 +16,13 @@
   white-space: nowrap; /*mantiene en una sola linea el p*/
   letter-spacing: .15em; /* Adjust as needed */
   animation:
+<<<<<<< HEAD
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
+=======
+    typing 3.5s steps(30, end) infinite alternate,
+    blink-caret .75s step-end infinite alternate;
+>>>>>>> 4dd6c5145ba99f58451a8b14a21bfe008748f95d
 }
 
 /* efecto de escritura que ocupa el ancho del parrafo */

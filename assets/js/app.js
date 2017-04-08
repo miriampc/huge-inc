@@ -10,7 +10,7 @@ window.addEventListener('load',function(){
     var spanName=document.createElement('span');
     figure.setAttribute("class","image-coder");
     image.setAttribute("id","coder"+id);
-    image.src="assets/images/students/"+(id+1)+".png";//e.url;//+(id+1)+".png";
+    image.src="assets/images/students/"+(id+1)+".png";
     caption.setAttribute("class",'name-coder');
     figure.appendChild(image);
     spanName.appendChild(document.createTextNode(e));
@@ -18,7 +18,10 @@ window.addEventListener('load',function(){
     figure.appendChild(caption);
     docFragment.appendChild(figure);
     codersGrid.appendChild(docFragment);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4dd6c5145ba99f58451a8b14a21bfe008748f95d
   });
 });
 
